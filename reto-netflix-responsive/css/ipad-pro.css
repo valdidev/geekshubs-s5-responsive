@@ -1,0 +1,48 @@
+#container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+#top-a {
+    width: 80%;
+}
+
+#top-b {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#top-b span {
+    font-size: 14px;
+}
+
+#top-a2 {
+    font-size: 14px;
+    text-align: right;
+    text-align: center;
+}
+
+#top-a2 a {
+    margin: 0 5px;
+
+}
+
+#netflix-logo {
+    width: 100%;
+}
+
+.texto {
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-size: 35px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.poster{
+    width: 100%;
+    height: 100%;
+}
